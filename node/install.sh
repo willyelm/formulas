@@ -6,9 +6,8 @@ detect_version ()
 {
   if [ $# -ne "1" ]
   then
-    #echo "Usage: `basename $0` <version>"
-    #exit 1
-    $VERSION="6.0.0"
+    echo "Usage: `basename $0` <version>"
+    exit 1
   fi
 }
 
