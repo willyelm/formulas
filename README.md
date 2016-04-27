@@ -8,5 +8,5 @@ Useful scripts to setup and install development tools
 ### Install Node
 
 ```
-curl -o- https://raw.githubusercontent.com/willyelm/formulas/master/node/install.sh 6.0.0 | bash
+curl -o- https://raw.githubusercontent.com/willyelm/formulas/master/node/install.sh | bash
 ```
