@@ -1,4 +1,3 @@
-# usage: ./node.sh 5.11.0
 OS=`uname`
 DISTRO=""
 VERSION=$1
@@ -7,8 +6,9 @@ detect_version ()
 {
   if [ $# -ne "1" ]
   then
-    echo "Usage: `basename $0` <version>"
-    exit 1
+    #echo "Usage: `basename $0` <version>"
+    #exit 1
+    VERSION="6.0.0"
   fi
 }
 
