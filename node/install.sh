@@ -33,7 +33,7 @@ main ()
   cd /tmp
 
   curl -O http://nodejs.org/dist/v${VERSION}/$FILE
-  tar -zxfv $FILE
+  tar -zxf $FILE
   mkdir -p /usr/local/bin/
 
   ln -s /tmp/$DISTRO/bin/node /usr/local/bin/node
